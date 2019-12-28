@@ -1,0 +1,6 @@
+/* Style to hide Dates / Months */
+.ui-datepicker-calendar,.ui-datepicker-month { display: none; }
+
+.deals-info input, .deals-info select, .deals-info .inc-select-field {
+	width: 300px;
+}

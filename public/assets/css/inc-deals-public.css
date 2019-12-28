@@ -1,0 +1,86 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#inc_deals_wrapper a:hover, #inc_single_deal_wrapper a:hover{
+    color:black;
+    text-decoration:none;
+}
+#inc_deals_wrapper, #inc_single_deal_wrapper{
+    margin-bottom:20px;
+    padding:50px 0px;
+    
+}
+#inc_deals_wrapper .row, #inc_single_deal_wrapper .row{
+    margin-top:20px;
+}
+#inc_deals_wrapper a, #inc_single_deal_wrapper a{
+    color: black;
+}
+#inc_deals_wrapper .card, #inc_single_deal_wrapper .card{
+	margin-top: 10px;
+    background-color: #e7f4f9;
+ 	overflow: auto;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius:4px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+
+}
+
+#inc_deals_wrapper .card-text, #inc_single_deal_wrapper .card-text {
+	font-size: 14px;
+	background: cadetblue;
+	margin-top: 10px;
+	color: #fff;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+#inc_deals_wrapper .card:hover, #inc_single_deal_wrapper .card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
+}
+#inc_deals_wrapper .card img, #inc_single_deal_wrapper .card img {
+    width:100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#inc_deals_wrapper .card p, #inc_single_deal_wrapper .card p{
+    margin:20px;
+    opacity: 0.65;
+}
+#inc_deals_wrapper .blue-button, #inc_single_deal_wrapper .blue-button{
+    width: 100px;
+    -webkit-transition: background-color 1s , color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s , color 1s;
+    min-height: 20px;
+    background-color: #002E5B;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px 20px 15px 20px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+#inc_deals_wrapper .blue-button:hover, #inc_single_deal_wrapper .blue-button:hover {
+    background-color: #dadada;
+    color: #002E5B;
+}
+.inc_deal_filters {
+	background-color: #5f9ea0;
+	color: #fff;
+	padding: 10px;
+}
+#inc_deal_filter_submit {
+	margin-top: 15px;
+}
+@media (max-width: 768px) {
+
+    #inc_deals_wrapper .col-lg-4, #inc_single_deal_wrapper .col-lg-4 {
+        margin-top: 20px;
+    }
+}
